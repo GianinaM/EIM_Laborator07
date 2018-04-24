@@ -141,7 +141,7 @@ public class XKCDCartoonDisplayerAsyncTask extends AsyncTask<String, Void, XKCDC
             String cartoonUrl = xkcdCartoonInformation.getCartoonUrl();
             if (cartoonUrl != null) {
                 xkcdCartoonUrlTextView.setText(cartoonUrl);
-                /*ImageRequest cartoonRequest = new ImageRequest(
+                ImageRequest cartoonRequest = new ImageRequest(
                         cartoonUrl,
                         new Response.Listener<Bitmap>() {
                             @Override
@@ -163,7 +163,7 @@ public class XKCDCartoonDisplayerAsyncTask extends AsyncTask<String, Void, XKCDC
                             }
                         }
                 );
-                VolleyController.getInstance(xkcdCartoonTitleTextView.getContext()).addToRequestQueue(cartoonRequest);*/
+                VolleyController.getInstance(xkcdCartoonTitleTextView.getContext()).addToRequestQueue(cartoonRequest);
             }
             String previousCartoonUrl = xkcdCartoonInformation.getPreviousCartoonUrl();
             if (previousCartoonUrl != null) {

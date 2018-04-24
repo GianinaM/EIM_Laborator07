@@ -19,6 +19,7 @@ public class GoogleSearcherAsyncTask extends AsyncTask<String, Void, String> {
         // create an instance of a HttpGet object, encapsulating the base Internet address (http://www.google.com) and the keyword
         // create an instance of a ResponseHandler object
         // execute the request, thus generating the result
+        //test
 
         return null;
     }
